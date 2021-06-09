@@ -28,7 +28,7 @@
                 }
             }
             else {
-                echo "All fields required!";
+                echo "<h1>All fields required!</h1>";
             }
         }
         ?>

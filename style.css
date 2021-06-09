@@ -14,7 +14,7 @@
     width: fit-content;
     display: flex;
     flex-direction: column;
-    background-color: #6AB8EE;
+    background-color: #6bb4e7;
     border-radius: 8px;
 }
 
@@ -70,4 +70,29 @@ button[type=submit] {
 
 button[type=submit]:hover {
     background-color: #4e86b9;
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        scroll-behavior: unset;
+    }
+
+    .main-content {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    h1 {
+        border-radius: 0;
+    }
+
+    p {
+        color: rgb(236, 0, 0);
+    }
+    
+    form {
+        color: black;
+    }
 }
